@@ -8,6 +8,7 @@ cpu = torch.device('cpu')
 gpu = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f"CPU device: {cpu}, GPU device: {gpu}")
 
+# CUSTOMIZE MATRIX SIZE HERE
 sizes = list(range(200, 2200, 200))  # 200x200 => 2000x2000
 cpu_times = []
 gpu_times = []
