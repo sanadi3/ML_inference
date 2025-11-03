@@ -1,1 +1,1 @@
-his project benchmarks PyTorch GPU vs CPU matrix multiplications and visualizes performance scaling.
+This project benchmarks PyTorch GPU vs CPU matrix multiplications and visualizes performance scaling.
